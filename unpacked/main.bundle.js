@@ -35310,7 +35310,7 @@ const rgbDecimal = (rgb) => {
             }
         }
           , _C = {
-            rE: "0.4.2"
+            rE: "Jolly"
         };
         var kC, EC, SC, MC, TC, AC, CC, PC, RC, LC, IC, NC, DC, UC, BC, OC, zC, FC, WC, HC, VC, GC, jC, qC, XC = function(e, t, n, i, r) {
             if ("m" === i)
