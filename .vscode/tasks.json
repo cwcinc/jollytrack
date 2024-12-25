@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "BuildPolytrack",
+            "type": "shell",
+            "command": "../PolyTrack.exe",
+            "dependsOn": ["PackAsar"],
+            "dependsOrder": "sequence",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "PackAsar",
+            "type": "shell",
+            "command": "asar pack unpacked app.asar",
+        },
+        {
+            "label": "ExtractAsar",
+            "type": "shell",
+            "command": "asar extract app.asar unpacked",
+        }
+    ]
+}
