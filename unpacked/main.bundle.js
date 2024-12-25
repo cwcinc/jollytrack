@@ -35632,7 +35632,7 @@ const rgbDecimal = (rgb) => {
             const C = document.createElement("a");
             C.href = "https://www.kodub.com",
             C.target = "_blank",
-            C.textContent = "cwcinc and ShovelFish - JollyTrack",
+            C.textContent = "cwcinc and Shovelfish - JollyTrack",
             YC(this, CC, "f").appendChild(C);
             const P = document.createElement("a");
             P.href = "https://opengameart.org/content/sci-fi-theme-1",
