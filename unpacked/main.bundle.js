@@ -23395,7 +23395,7 @@ const rgbDecimal = (rgb) => {
                 const e = 360 * Math.random()
                   , t = .5 * (1 - Math.pow(Math.random(), 2)) * 100
                   , n = 100 * (.1 + .2 * (1 - Math.pow(Math.random(), 2)));
-                return new vu(new tr("hsl(" + e + "," + t + "%," + n + "%)"),new tr("#ffffff"),new tr("#131313"),new tr("#666666"))
+                return new vu(new tr("#064308"),new tr("#ab1515"),new tr("#ab1515"), new tr("hsl(" + e + ",50%,70%)"))
             }
             serialize() {
                 return this.primary.getHexString() + this.secondary.getHexString() + this.frame.getHexString() + this.rims.getHexString()
@@ -32565,7 +32565,7 @@ const rgbDecimal = (rgb) => {
                         if (0 != yE(this, fE, "f") && (wE(this, fE, yE(this, fE, "f") - t, "f"),
                         yE(this, fE, "f") <= 0)) {
                             const e = yE(this, dE, "f").getKeyBindings(Ub.VehicleReset);
-                            null != e[0] && null != e[1] ? yE(this, lE, "m", mE).call(this, yE(this, cE, "f").get("Press [{0}] or [{1}] to restart", [e[0], e[1]])) : null != e[0] ? yE(this, lE, "m", mE).call(this, yE(this, cE, "f").get("Press [{0}] to restart", [e[0]])) : null != e[1] && yE(this, lE, "m", mE).call(this, yE(this, cE, "f").get("Press [{0}] to restart", [e[1]])),
+                            null != e[0] && null != e[1] ? yE(this, lE, "m", mE).call(this, "Merry Christmas!") : null != e[0] ? yE(this, lE, "m", mE).call(this, yE(this, cE, "f").get("Press [{0}] to restart", [e[0]])) : null != e[1] && yE(this, lE, "m", mE).call(this, yE(this, cE, "f").get("Press [{0}] to restart", [e[1]])),
                             wE(this, fE, 0, "f")
                         }
                     } else
@@ -35632,18 +35632,18 @@ const rgbDecimal = (rgb) => {
             const C = document.createElement("a");
             C.href = "https://www.kodub.com",
             C.target = "_blank",
-            C.textContent = "kodub.com - " + t.get("Version") + " " + _C.rE,
+            C.textContent = "cwcinc and ShovelFish - JollyTrack",
             YC(this, CC, "f").appendChild(C);
             const P = document.createElement("a");
             P.href = "https://opengameart.org/content/sci-fi-theme-1",
             P.target = "_blank",
-            P.textContent = 'OpenGameArt.org "Sci-fi Theme" by Maou (CC-BY 4.0)',
+            P.textContent = 'Music - Deck the Halls',
             YC(this, CC, "f").appendChild(P),
             YC(this, CC, "f").appendChild(document.createElement("br"));
             const R = document.createElement("a");
             R.href = "https://www.kodub.com/privacy/polytrack",
             R.target = "_blank",
-            R.textContent = "Privacy Policy",
+            R.textContent = "Merry Policy",
             YC(this, CC, "f").appendChild(R),
             i.hasLoaded() ? YC(this, kC, "m", VC).call(this) : (XC(this, PC, new gT(YC(this, MC, "f"),t,i), "f"),
             i.addCompleteListener(( () => {
